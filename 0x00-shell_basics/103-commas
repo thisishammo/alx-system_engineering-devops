@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -ap | sed ':a;N;$!ba;s/\n/, /g' | sort -d -k1.2n
+ls -ap | sed -e ':a' -e 'N' -e '$!ba' -e's/\n/, /g' | sort -d -k1.2n
