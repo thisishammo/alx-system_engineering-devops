@@ -1,2 +1,2 @@
 #!/bin/bash
-if [ -L "_hello" ] then sudo chown "vincent:staff" "_hello" fi
+if [ -L "_hello" ] then chown "vincent:staff" "_hello" fi
