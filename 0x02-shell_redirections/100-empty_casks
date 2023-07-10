@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -empty -o -name ".*"
+find . -empty -o -name ".*" | tr -d './'
